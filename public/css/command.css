@@ -14,7 +14,7 @@ p {
 
 .container {
   position: relative;
-  padding: 20px 0px 14px;
+  /* padding: 20px 0px 14px; */
   width: 1320px;
   height: auto;
   display: flex;
@@ -71,7 +71,7 @@ p {
   align-items: center;
 }
 
-.navbar_frame.search_box .category_list {
+.navbar_frame .search_box .category_list {
   width: 166px;
   height: 30px;
 
@@ -87,11 +87,11 @@ p {
 
   border: none;
   outline: none;
-  color: var(#041e42);
+  color: #041e42;
 
-  font-family: jost;
+  font-family: "Jost";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 15px;
   line-height: 22px;
   color: #841e42;
@@ -104,8 +104,8 @@ p {
 
   border: none;
   outline: none;
-  color: var(--Color-Text-Light #626974);
-  font-family: Jost;
+  color: #626974;
+  font-family: "Jost";
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -138,7 +138,7 @@ p {
   justify-content: space-between;
 }
 
-.navbar_frame .nav_top_menu {
+.navbar_frame .nav_top_menu .top_menu_box {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -167,10 +167,11 @@ p {
   height: 15px;
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #fbc34b;
   border-radius: 50%;
   color: #0b1e40;
-  font-family: inter;
+  font-family: "Inter";
   font-size: 8px;
   font-style: normal;
   font-weight: 700;
@@ -188,7 +189,7 @@ p {
 }
 
 .navbar_frame .box_info_box span {
-  font-family: "Jost";
+  font-family: "Jost", sans-serif;
   font-style: normal;
   font-weight: 400px;
   font-size: 13px;
@@ -199,27 +200,36 @@ p {
 .navbar_frame .box_info_box strong {
   font-family: "Jost", sans-serif;
   font-style: normal;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 22px;
   color: #ffffff;
 }
 
 .navbar_frame .navbar_bott {
-  margin-top: 20;
+  margin-top: 20px;
   width: 100%;
   height: 50px;
-  background-color: blue;
+  background-color: #443297;
 
   display: flex;
   flex-direction: row;
   border-top: 1px solid #5746a1;
+}
+
+.navbar_frame .navbar_bott .navbar_bott_menu_box {
+  margin-top: 10px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
 }
 .navbar_frame .navbar_bott_menu_box .browse_box {
   width: 185px;
   height: 30px;
 
   display: flex;
+  flex-direction: row;
   align-items: center;
   border-right: 1px solid #5746a1;
 }
@@ -232,7 +242,7 @@ p {
 .navbar_frame .browse_box span {
   color: #fff;
 
-  font-family: Jost;
+  font-family: "Jost";
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -257,7 +267,7 @@ p {
   margin-right: 20px;
   color: #fff;
 
-  font-family: Jost;
+  font-family: "Jost";
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -266,7 +276,7 @@ p {
 
 .navbar_frame .router_menu a.active {
   color: #f5c34b;
-  font-family: Jost;
+  font-family: "Jost";
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -281,7 +291,7 @@ p {
 .navbar_frame .sorting_menu span {
   margin-left: 20px;
   color: #fff;
-  font-family: Jost;
+  font-family: "Jost";
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
