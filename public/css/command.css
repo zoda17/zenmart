@@ -11,16 +11,14 @@ a {
 p {
   margin: 0;
 }
-
 .container {
   position: relative;
-  /* padding: 20px 0px 14px; */
-  width: 1320px;
+  width: 1280px;
   height: auto;
   display: flex;
 }
 
-/* Navbar */
+/* NAVBAR */
 .navbar_frame {
   position: relative;
   width: 100%;
@@ -32,32 +30,30 @@ p {
 }
 
 .navbar_frame .container {
-  padding: 20px 0px 14px;
   flex-direction: column;
+  padding: 20px 0px 14px;
 }
 
 .navbar_frame .navbar_top {
   width: 100%;
   height: 50px;
-
   display: flex;
   flex-direction: row;
 }
 
 .navbar_frame .navbar_top > a img {
+  height: 36px;
   width: 117px;
   margin-right: 76px;
-  height: 36px;
 }
 
 .navbar_frame .navbar_top .nav_search_frame {
   width: 650px;
   height: 50px;
-
   display: flex;
   flex-direction: row;
   align-items: center;
-  background: #fff;
+  background-color: #fff;
   border-radius: 6px;
 }
 
@@ -65,7 +61,6 @@ p {
   padding: 10px 17px;
   width: auto;
   height: auto;
-
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -74,7 +69,6 @@ p {
 .navbar_frame .search_box .category_list {
   width: 166px;
   height: 30px;
-
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -84,28 +78,26 @@ p {
 .navbar_frame .category_list select {
   width: 140px;
   height: 30px;
-
   border: none;
   outline: none;
-  color: #041e42;
+  color: var(--Color-Text-Dark, #041e42);
 
-  font-family: "Jost";
+  font-family: Jost;
+  font-size: 15px;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
   line-height: 22px;
-  color: #841e42;
 }
 
 .navbar_frame .search_box input {
-  margin-left: 12px;
   width: 387px;
   height: 22px;
-
+  margin-left: 12px;
   border: none;
   outline: none;
-  color: #626974;
-  font-family: "Jost";
+  color: var(--Color-Text-Light, #626974);
+
+  font-family: Jost;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -115,12 +107,11 @@ p {
 .navbar_frame .nav_search_frame .search_icon_box {
   width: 50px;
   height: 50px;
-
+  border-radius: 0px 6px 6px 0px;
+  background: var(--Bg-2, #f5c34b);
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f5c348;
-  border-radius: 0px 6px 0px;
 }
 
 .navbar_frame .search_icon_box img {
@@ -132,7 +123,6 @@ p {
   margin-left: 45px;
   width: 416px;
   height: 50px;
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -147,16 +137,15 @@ p {
 
 .navbar_frame .top_menu_box .box_icon_box {
   position: relative;
-  margin-right: 16px;
+  margin-right: 10px;
   width: 54px;
   height: 50px;
-
   display: flex;
   justify-content: center;
   align-items: center;
 
-  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .navbar_frame .box_icon_box .basket_count {
@@ -165,13 +154,15 @@ p {
   right: -3px;
   width: 15px;
   height: 15px;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fbc34b;
+  background-color: #f5c34b;
   border-radius: 50%;
   color: #0b1e40;
-  font-family: "Inter";
+
+  font-family: Inter;
   font-size: 8px;
   font-style: normal;
   font-weight: 700;
@@ -190,27 +181,26 @@ p {
 
 .navbar_frame .box_info_box span {
   font-family: "Jost", sans-serif;
-  font-style: normal;
-  font-weight: 400px;
   font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
   line-height: 22px;
-  color: #ffffff;
 }
 
 .navbar_frame .box_info_box strong {
-  font-family: "Jost", sans-serif;
+  color: #fff;
+  font-family: "Jost";
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
   line-height: 22px;
-  color: #ffffff;
 }
 
 .navbar_frame .navbar_bott {
   margin-top: 20px;
   width: 100%;
-  height: 50px;
-  background-color: #443297;
+  height: 40px;
 
   display: flex;
   flex-direction: row;
@@ -224,6 +214,7 @@ p {
   display: flex;
   flex-direction: row;
 }
+
 .navbar_frame .navbar_bott_menu_box .browse_box {
   width: 185px;
   height: 30px;
@@ -242,7 +233,7 @@ p {
 .navbar_frame .browse_box span {
   color: #fff;
 
-  font-family: "Jost";
+  font-family: Jost;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -267,7 +258,7 @@ p {
   margin-right: 20px;
   color: #fff;
 
-  font-family: "Jost";
+  font-family: Jost;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -275,8 +266,8 @@ p {
 }
 
 .navbar_frame .router_menu a.active {
-  color: #f5c34b;
-  font-family: "Jost";
+  color: var(--Bg-2, #f5c34b);
+  font-family: Jost;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -291,7 +282,7 @@ p {
 .navbar_frame .sorting_menu span {
   margin-left: 20px;
   color: #fff;
-  font-family: "Jost";
+  font-family: Jost;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
