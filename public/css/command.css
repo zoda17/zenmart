@@ -95,7 +95,7 @@ p {
   margin-left: 12px;
   border: none;
   outline: none;
-  color: var(--Color-Text-Light, #626974);
+  color: #626974;
 
   font-family: Jost;
   font-size: 15px;
@@ -108,7 +108,7 @@ p {
   width: 50px;
   height: 50px;
   border-radius: 0px 6px 6px 0px;
-  background: var(--Bg-2, #f5c34b);
+  background: #f5c34b;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -266,7 +266,7 @@ p {
 }
 
 .navbar_frame .router_menu a.active {
-  color: var(--Bg-2, #f5c34b);
+  color: var #f5c34b;
   font-family: Jost;
   font-size: 16px;
   font-style: normal;
