@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zenmart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../public/css/command.css" />
+    <link rel="stylesheet" href="../public/css/product_all.css" />
+  </head>
+  <body>
+    <div class="navbar_frame">
+      <div class="container">
+        <div class="navbar_top">
+          <a href="../index.html">
+            <img src="../public/images/icons/logo.png" alt="" />
+          </a>
+          <div class="nav_search_frame">
+            <div class="search_box">
+              <div class="category_list">
+                <select name="" id="">
+                  <option value="" selected>All categories</option>
+                  <option value="">Computers</option>
+                </select>
+              </div>
+              <input type="search" placeholder="Search products..." />
+            </div>
+            <div class="search_icon_box">
+              <img src="../public/images/icons/search.svg" alt="" />
+            </div>
+          </div>
+          <div class="nav_top_menu">
+            <a href="../product/order/cart.html">
+              <div class="top_menu_box">
+                <div class="box_icon_box">
+                  <img src="../public/images/icons/heart.svg" alt="" />
+                </div>
+                <div class="box_info_box">
+                  <span>Wishlist</span>
+                  <strong>My Items</strong>
+                </div>
+              </div>
+            </a>
+
+            <a href="../product/order/mypage/other/login.html">
+              <div class="top_menu_box">
+                <div class="box_icon_box">
+                  <img src="../public/images/icons/profile.svg" alt="" />
+                </div>
+                <div class="box_info_box">
+                  <span>Sign in</span>
+                  <strong>Account</strong>
+                </div>
+              </div>
+            </a>
+
+            <a href="../product/order/cart.html">
+              <div class="top_menu_box">
+                <div class="box_icon_box">
+                  <div class="basket_count">2</div>
+                  <img src="../public/images/icons/shopping-cart.svg" alt="" />
+                </div>
+                <div class="box_info_box">
+                  <span>$200.99</span>
+                  <strong>Total</strong>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="navbar_bott">
+          <div class="navbar_bott_menu_box">
+            <div class="browse_box">
+              <img src="../public/images/Group 44 (1).svg" alt="" />
+              <span>Browse Categories</span>
+            </div>
+            <div class="navbar_route_menu">
+              <div class="router_menu">
+                <a href="./index.html">Home</a>
+              </div>
+              <div class="router_menu">
+                <a href="/./product/all.html" class="active">Shop</a>
+              </div>
+              <div class="router_menu">
+                <a href="/./product/order/cart.html">Orders</a>
+              </div>
+              <div class="router_menu">
+                <a href="/./product/order/mypage/other/about.html">About</a>
+              </div>
+              <div class="router_menu">
+                <a href="/./product/order/mypage/other/contact.html">Contact</a>
+              </div>
+            </div>
+            <div class="sorting_menu">
+              <span>Deal of the Day</span>
+              <span>Hot Deals</span>
+              <span>Best Sellers</span>
+              <span>New Arrivals</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="shop_page">
+      <div class="category_top_frame">
+        <div class="container">
+          <div>All Electronics</div>
+          <div>Smart TV</div>
+          <div>Laptops</div>
+          <div>Cell Phone</div>
+          <div>Camera & Photo</div>
+          <div>Portable Audio</div>
+          <div>Computers</div>
+          <div>iPad & Theatre</div>
+          <div>PC Gaming</div>
+          <div>Smart Home</div>
+          <div>Headphones</div>
+        </div>
+      </div>
+      <div class="page_router">
+        <span>Home</span>
+        <span class="drop"></span>
+        <span>Electronics</span>
+        <span class="drop"></span>
+        <span>Computers</span>
+        <span class="drop"></span>
+        <span class="active">Desktop Computers</span>
+      </div>
+      <div class="header_frame">
+        <div class="container">
+          <div class="header_content">
+            <span>Save Up To $130 on select laptops</span>
+            <p>
+              All kind of products in one place. Starts from $1. Get cashbacks &
+              offers
+            </p>
+            <a href="">Shop Deals</a>
+            <div class="product_pagionation_box">
+              <div class="pagionation_main">
+                <img src="./public/images/icons/arrow-prev_next.svg" alt="" />
+                <div class="pagionation_dot">
+                  <div class="dot">
+                    <div></div>
+                  </div>
+                  <div class="dot">
+                    <div></div>
+                  </div>
+                  <div class="dot active">
+                    <div></div>
+                  </div>
+                  <div class="dot">
+                    <div></div>
+                  </div>
+                  <div class="dot">
+                    <div></div>
+                  </div>
+                </div>
+                <img
+                  src="./public/images/icons/arrow-prev_next.svg"
+                  style="transform: scaleX(-1)"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shop_category_frame">
+        <div class="container">
+          <div class="category_top">
+            <span>Shop category</span>
+            <a href="/product/all.html"> View All Categories </a>
+          </div>
+          <div class="category_wrapper">
+            <div class="category_box">
+              <div class="category_img_box">
+                <img src="../public/images/tv.png" alt="" />
+              </div>
+              <span class="category_tvs"
+                >TVs, Home Theatre, and Accessories</span
+              >
+            </div>
+
+            <div class="category_box">
+              <div class="category_img_box">
+                <img src="../public/images/computer.png" alt="" />
+              </div>
+              <span class="category_computers"
+                >Computers, Tablets, and Accessories</span
+              >
+            </div>
+
+            <div class="category_box">
+              <div class="category_img_box">
+                <img src="../public/images/smart.png" alt="" />
+              </div>
+              <span class="category_smart_home">Smart Home</span>
+            </div>
+
+            <div class="category_box">
+              <div class="category_img_box">
+                <img src="../public/images/headphone.png" alt="" />
+              </div>
+              <span class="category_headphone"
+                >Headphones and Portable Speakers</span
+              >
+            </div>
+
+            <div class="category_box">
+              <div class="category_img_box">
+                <img src="../public/images/phone.png" alt="" />
+              </div>
+              <span class="category_phone">Cell Phones and Accessories</span>
+            </div>
+
+            <div class="category_box">
+              <div class="category_img_box">
+                <img src="../public/images/game.png" alt="" />
+              </div>
+              <span class="category_games"
+                >Video Games, Consoles, and Accessories</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="brands_frame">
+        <div class="container">
+          <div class="spec_title">
+            <span>Shop by Brand</span>
+            <div class="brands_wrapper">
+              <div class="brand_box active">Apple</div>
+              <div class="brand_box">Dell</div>
+              <div class="brand_box">HP</div>
+              <div class="brand_box">Lenovo</div>
+              <div class="brand_box">SAMSUNG</div>
+              <div class="brand_box">Asus</div>
+              <div class="brand_box">Acer</div>
+              <div class="brand_box">Sony</div>
+            </div>
+          </div>
+      </div>
+      
+    </div>
+    <div class="top_products_frame">
+      <div class="container">
+        <div class="top_products_top">
+          <span class="spec_title">Top Selling Products</span>
+          <div class="pagionation_main">
+            <img src="./public/images/icons/arrow-prev_next.svg" alt="" />
+            <div class="pagionation_dot">
+              <div class="dot">
+                <div></div>
+              </div>
+              <div class="dot">
+                <div></div>
+              </div>
+              <div class="dot active">
+                <div></div>
+              </div>
+              <div class="dot">
+                <div></div>
+              </div>
+              <div class="dot">
+                <div></div>
+              </div>
+            </div>
+            <img
+              src="./public/images/icons/arrow-prev_next.svg"
+              style="transform: scaleX(-1)"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="top_products_bottom">
+          <div class="product_box">
+            <a href="./chosenProduct.html">
+              <div class="product_img_box">
+                <img src="/public/images/products/asus_laptop.png" alt="" >
+              </div>
+            </a>
+            <div class="product_content_box" style="padding: 0 0 0 10px">
+              <span class="product_title">SAMSUNG</span>
+              <a href="product/chosenProduct.html">
+                <p class="product_desc">
+                  Acer Aspire 5 15.6" Laptop - SIlver (Intel Core i7-1165G7/512GB SSD/128GB RAM/Windows 11)
+                </p>
+              </a>
+              <div class="review_box">
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <span>3,014 reviews</span>
+              </div>
+              <div class="price_box">
+                <strong>$320</strong>
+                <span>459$</span>
+              </div>
+            </div>
+          </div>
+          <div class="product_box">
+            <a href="./chosenProduct.html">
+              <div class="product_img_box">
+                <img src="/public/images/products/acer_laptop.png" alt="" >
+              </div>
+            </a>
+            <div class="product_content_box" style="padding: 0 0 0 10px">
+              <span class="product_title">SAMSUNG</span>
+              <a href="product/chosenProduct.html">
+                <p class="product_desc">
+                  Acer Aspire 5 15.6" Laptop - SIlver (Intel Core i7-1165G7/512GB SSD/128GB RAM/Windows 11)
+                </p>
+              </a>
+              <div class="review_box">
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <span>3,014 reviews</span>
+              </div>
+              <div class="price_box">
+                <strong>$320</strong>
+                <span>459$</span>
+              </div>
+            </div>
+          </div>
+          <div class="product_box">
+            <a href="./chosenProduct.html">
+              <div class="product_img_box">
+                <img src="/public/images/products/acer_laptop.png" alt="" >
+              </div>
+            </a>
+            <div class="product_content_box" style="padding: 0 0 0 10px">
+              <span class="product_title">SAMSUNG</span>
+              <a href="product/chosenProduct.html">
+                <p class="product_desc">
+                  Acer Aspire 5 15.6" Laptop - SIlver (Intel Core i7-1165G7/512GB SSD/128GB RAM/Windows 11)
+                </p>
+              </a>
+              <div class="review_box">
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <span>3,014 reviews</span>
+              </div>
+              <div class="price_box">
+                <strong>$320</strong>
+                <span>459$</span>
+              </div>
+            </div>
+          </div>
+          <div class="product_box">
+            <a href="./chosenProduct.html">
+              <div class="product_img_box">
+                <img src="/public/images/products/acer_silver.png" alt="" >
+              </div>
+            </a>
+            <div class="product_content_box" style="padding: 0 0 0 10px">
+              <span class="product_title">SAMSUNG</span>
+              <a href="product/chosenProduct.html">
+                <p class="product_desc">
+                  Acer Aspire 5 15.6" Laptop - SIlver (Intel Core i7-1165G7/512GB SSD/128GB RAM/Windows 11)
+                </p>
+              </a>
+              <div class="review_box">
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <span>3,014 reviews</span>
+              </div>
+              <div class="price_box">
+                <strong>$320</strong>
+                <span>459$</span>
+              </div>
+            </div>
+          </div>
+          <div class="product_box">
+            <a href="./chosenProduct.html">
+              <div class="product_img_box">
+                <img src="/public/images/products/asus_laptop.png" alt="" >
+              </div>
+            </a>
+            <div class="product_content_box" style="padding: 0 0 0 10px">
+              <span class="product_title">SAMSUNG</span>
+              <a href="product/chosenProduct.html">
+                <p class="product_desc">
+                  Acer Aspire 5 15.6" Laptop - SIlver (Intel Core i7-1165G7/512GB SSD/128GB RAM/Windows 11)
+                </p>
+              </a>
+              <div class="review_box">
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <span>3,014 reviews</span>
+              </div>
+              <div class="price_box">
+                <strong>$320</strong>
+                <span>459$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="all_products_frame">
+     <div class="container">
+      <div class="frame_info">
+        <span class="spec_title">Laptops and Accessories</span>
+        <p>Shop Laptops, Desktops, Monitors, Tablets, PC Gaming, Hard Drives and Storage, Accessories and more</p>
+      </div>
+      <div class="product_filters">
+        <div class="filter_box">
+          <select name=""> 
+            <option value="" selected disabled>Price</option>
+          </select>
+        </div>
+        <div class="filter_box">
+          <select name=""> 
+            <option value="" selected disabled>Brand</option>
+          </select>
+        </div>
+        <div class="filter_box">
+          <select name=""> 
+            <option value="" selected disabled>Color</option>
+          </select>
+        </div>
+      </div>
+      <div class="products_wrap">
+        <div class="product_box" style="width: 258px;">
+        <a href="./chosenProduct.html">
+          <div class="product_img_box">
+            <img src="/public/images/products/acer_laptop.png" alt="">
+          </div>
+        </a>
+        <div class="product_content_box" style="padding: 0 0 0 10px">
+          <span class="product_title">SAMSUNG</span>
+          <a href="product/chosenProduct.html">
+            <p class="product_desc">
+              Acer Aspire 5 15.6" Laptop - SIlver (Intel Core i7-1165G7/512GB SSD/128GB RAM/Windows 11)
+            </p>
+          </a>
+          <div class="review_box">
+            <img src="./public/images/icons/review.svg" alt="" />
+            <img src="./public/images/icons/review.svg" alt="" />
+            <img src="./public/images/icons/review.svg" alt="" />
+            <img src="./public/images/icons/review.svg" alt="" />
+            <img src="./public/images/icons/review.svg" alt="" />
+            <span>3,014 reviews</span>
+          </div>
+          <div class="price_box">
+            <strong>$320</strong>
+            <span>459$</span>
+          </div>
+        </div>
+        </div>
+        <div class="product_box" style="width: 258px;">
+          <a href="./chosenProduct.html">
+            <div class="product_img_box">
+              <img src="/public/images/products/acer_laptop.png" alt="">
+            </div>
+          </a>
+          <div class="product_content_box" style="padding: 0 0 0 10px">
+            <span class="product_title">SAMSUNG</span>
+            <a href="product/chosenProduct.html">
+              <p class="product_desc">
+                Acer Aspire 5 15.6" Laptop - SIlver (Intel Core i7-1165G7/512GB SSD/128GB RAM/Windows 11)
+              </p>
+            </a>
+            <div class="review_box">
+              <img src="/public/images/icons/review.svg" alt="" />
+              <img src="/public/images/icons/review.svg" alt="" />
+              <img src="/public/images/icons/review.svg" alt="" />
+              <img src="/public/images/icons/review.svg" alt="" />
+              <img src="/public/images/icons/review.svg" alt="" />
+              <span>3,014 reviews</span>
+            </div>
+            <div class="price_box">
+              <strong>$320</strong>
+              <span>459$</span>
+            </div>
+          </div>
+          </div>
+          <div class="product_box" style="width: 258px;">
+            <a href="./chosenProduct.html">
+              <div class="product_img_box">
+                <img src="/public/images/products/acer_laptop.png" alt="">
+              </div>
+            </a>
+            <div class="product_content_box" style="padding: 0 0 0 10px">
+              <span class="product_title">SAMSUNG</span>
+              <a href="product/chosenProduct.html">
+                <p class="product_desc">
+                  Acer Aspire 5 15.6" Laptop - SIlver (Intel Core i7-1165G7/512GB SSD/128GB RAM/Windows 11)
+                </p>
+              </a>
+              <div class="review_box">
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <span>3,014 reviews</span>
+              </div>
+              <div class="price_box">
+                <strong>$320</strong>
+                <span>459$</span>
+              </div>
+            </div>
+            </div>
+            <div class="product_box" style="width: 258px;">
+              <a href="./chosenProduct.html">
+                <div class="product_img_box">
+                  <img src="/public/images/products/acer_laptop.png" alt="">
+                </div>
+              </a>
+              <div class="product_content_box" style="padding: 0 0 0 10px">
+                <span class="product_title">SAMSUNG</span>
+                <a href="product/chosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - SIlver (Intel Core i7-1165G7/512GB SSD/128GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="/public/images/icons/review.svg" alt="" />
+                  <img src="/public/images/icons/review.svg" alt="" />
+                  <img src="/public/images/icons/review.svg" alt="" />
+                  <img src="/public/images/icons/review.svg" alt="" />
+                  <img src="/public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$320</strong>
+                  <span>459$</span>
+                </div>
+              </div>
+              </div>
+              <div class="product_box" style="width: 258px;">
+                <a href="./chosenProduct.html">
+                  <div class="product_img_box">
+                    <img src="/public/images/products/acer_laptop.png" alt="">
+                  </div>
+                </a>
+                <div class="product_content_box" style="padding: 0 0 0 10px">
+                  <span class="product_title">SAMSUNG</span>
+                  <a href="product/chosenProduct.html">
+                    <p class="product_desc">
+                      Acer Aspire 5 15.6" Laptop - SIlver (Intel Core i7-1165G7/512GB SSD/128GB RAM/Windows 11)
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="/public/images/icons/review.svg" alt="" />
+                    <img src="/public/images/icons/review.svg" alt="" />
+                    <img src="/public/images/icons/review.svg" alt="" />
+                    <img src="/public/images/icons/review.svg" alt="" />
+                    <img src="/public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$320</strong>
+                    <span>459$</span>
+                  </div>
+                </div>
+                </div>
+                <div class="product_box" style="width: 258px;">
+                  <a href="./chosenProduct.html">
+                    <div class="product_img_box">
+                      <img src="/public/images/products/acer_laptop.png" alt="">
+                    </div>
+                  </a>
+                  <div class="product_content_box" style="padding: 0 0 0 10px">
+                    <span class="product_title">SAMSUNG</span>
+                    <a href="product/chosenProduct.html">
+                      <p class="product_desc">
+                        Acer Aspire 5 15.6" Laptop - SIlver (Intel Core i7-1165G7/512GB SSD/128GB RAM/Windows 11)
+                      </p>
+                    </a>
+                    <div class="review_box">
+                      <img src="/public/images/icons/review.svg" alt="" />
+                      <img src="/public/images/icons/review.svg" alt="" />
+                      <img src="/public/images/icons/review.svg" alt="" />
+                      <img src="/public/images/icons/review.svg" alt="" />
+                      <img src="/public/images/icons/review.svg" alt="" />
+                      <span>3,014 reviews</span>
+                    </div>
+                    <div class="price_box">
+                      <strong>$320</strong>
+                      <span>459$</span>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="product_box" style="width: 258px;">
+                    <a href="./chosenProduct.html">
+                      <div class="product_img_box">
+                        <img src="/public/images/products/acer_laptop.png" alt="">
+                      </div>
+                    </a>
+                    <div class="product_content_box" style="padding: 0 0 0 10px">
+                      <span class="product_title">SAMSUNG</span>
+                      <a href="product/chosenProduct.html">
+                        <p class="product_desc">
+                          Acer Aspire 5 15.6" Laptop - SIlver (Intel Core i7-1165G7/512GB SSD/128GB RAM/Windows 11)
+                        </p>
+                      </a>
+                      <div class="review_box">
+                        <img src="/public/images/icons/review.svg" alt="" />
+                        <img src="/public/images/icons/review.svg" alt="" />
+                        <img src="/public/images/icons/review.svg" alt="" />
+                        <img src="/public/images/icons/review.svg" alt="" />
+                        <img src="/public/images/icons/review.svg" alt="" />
+                        <span>3,014 reviews</span>
+                      </div>
+                      <div class="price_box">
+                        <strong>$320</strong>
+                        <span>459$</span>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="product_box" style="width: 258px;">
+                      <a href="./chosenProduct.html">
+                        <div class="product_img_box">
+                          <img src="/public/images/products/acer_laptop.png" alt="">
+                        </div>
+                      </a>
+                      <div class="product_content_box" style="padding: 0 0 0 10px">
+                        <span class="product_title">SAMSUNG</span>
+                        <a href="product/chosenProduct.html">
+                          <p class="product_desc">
+                            Acer Aspire 5 15.6" Laptop - SIlver (Intel Core i7-1165G7/512GB SSD/128GB RAM/Windows 11)
+                          </p>
+                        </a>
+                        <div class="review_box">
+                          <img src="./public/images/icons/review.svg" alt="" />
+                          <img src="/public/images/icons/review.svg" alt="" />
+                          <img src="/public/images/icons/review.svg" alt="" />
+                          <img src="/public/images/icons/review.svg" alt="" />
+                          <img src="/public/images/icons/review.svg" alt="" />
+                          <span>3,014 reviews</span>
+                        </div>
+                        <div class="price_box">
+                          <strong>$320</strong>
+                          <span>459$</span>
+                        </div>
+                      </div>
+                      </div>
+                      <div class="product_box" style="width: 258px;">
+                        <a href="/chosenProduct.html">
+                          <div class="product_img_box">
+                            <img src="/public/images/products/acer_laptop.png" alt="">
+                          </div>
+                        </a>
+                        <div class="product_content_box" style="padding: 0 0 0 10px">
+                          <span class="product_title">SAMSUNG</span>
+                          <a href="product/chosenProduct.html">
+                            <p class="product_desc">
+                              Acer Aspire 5 15.6" Laptop - SIlver (Intel Core i7-1165G7/512GB SSD/128GB RAM/Windows 11)
+                            </p>
+                          </a>
+                          <div class="review_box">
+                            <img src="/public/images/icons/review.svg" alt="" />
+                            <img src="/public/images/icons/review.svg" alt="" />
+                            <img src="/public/images/icons/review.svg" alt="" />
+                            <img src="/public/images/icons/review.svg" alt="" />
+                            <img src="/public/images/icons/review.svg" alt="" />
+                            <span>3,014 reviews</span>
+                          </div>
+                          <div class="price_box">
+                            <strong>$320</strong>
+                            <span>459$</span>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="product_box" style="width: 258px;">
+                          <a href="./chosenProduct.html">
+                            <div class="product_img_box">
+                              <img src="/public/images/products/acer_laptop.png" alt="">
+                            </div>
+                          </a>
+                          <div class="product_content_box" style="padding: 0 0 0 10px">
+                            <span class="product_title">SAMSUNG</span>
+                            <a href="product/chosenProduct.html">
+                              <p class="product_desc">
+                                Acer Aspire 5 15.6" Laptop - SIlver (Intel Core i7-1165G7/512GB SSD/128GB RAM/Windows 11)
+                              </p>
+                            </a>
+                            <div class="review_box">
+                              <img src="/public/images/icons/review.svg" alt="" />
+                              <img src="/public/images/icons/review.svg" alt="" />
+                              <img src="/public/images/icons/review.svg" alt="" />
+                              <img src="/public/images/icons/review.svg" alt="" />
+                              <img src="/public/images/icons/review.svg" alt="" />
+                              <span>3,014 reviews</span>
+                            </div>
+                            <div class="price_box">
+                              <strong>$320</strong>
+                              <span>459$</span>
+                            </div>
+                          </div>
+                          </div>
+                          <div class="product_box" style="width: 258px;">
+                            <a href="./chosenProduct.html">
+                              <div class="product_img_box">
+                                <img src="/public/images/products/acer_laptop.png" alt="">
+                              </div>
+                            </a>
+                            <div class="product_content_box" style="padding: 0 0 0 10px">
+                              <span class="product_title">SAMSUNG</span>
+                              <a href="product/chosenProduct.html">
+                                <p class="product_desc">
+                                  Acer Aspire 5 15.6" Laptop - SIlver (Intel Core i7-1165G7/512GB SSD/128GB RAM/Windows 11)
+                                </p>
+                              </a>
+                              <div class="review_box">
+                                <img src="/public/images/icons/review.svg" alt="" />
+                                <img src="/public/images/icons/review.svg" alt="" />
+                                <img src="/public/images/icons/review.svg" alt="" />
+                                <img src="/public/images/icons/review.svg" alt="" />
+                                <img src="/public/images/icons/review.svg" alt="" />
+                                <span>3,014 reviews</span>
+                              </div>
+                              <div class="price_box">
+                                <strong>$320</strong>
+                                <span>459$</span>
+                              </div>
+                            </div>
+                            </div>
+                            <div class="product_box" style="width: 258px;">
+                              <a href="./chosenProduct.html">
+                                <div class="product_img_box">
+                                  <img src="/public/images/products/acer_laptop.png" alt="">
+                                </div>
+                              </a>
+                              <div class="product_content_box" style="padding: 0 0 0 10px">
+                                <span class="product_title">SAMSUNG</span>
+                                <a href="product/chosenProduct.html">
+                                  <p class="product_desc">
+                                    Acer Aspire 5 15.6" Laptop - SIlver (Intel Core i7-1165G7/512GB SSD/128GB RAM/Windows 11)
+                                  </p>
+                                </a>
+                                <div class="review_box">
+                                  <img src="/public/images/icons/review.svg" alt="" />
+                               <img src="/public/images/icons/review.svg" alt="" />
+                                  <img src="/public/images/icons/review.svg" alt="" />
+                                  <img src="/public/images/icons/review.svg" alt="" />
+                                  <img src="/public/images/icons/review.svg" alt="" />
+                                  <span>3,014 reviews</span>
+                                </div>
+                                <div class="price_box">
+                                  <strong>$320</strong>
+                                  <span>459$</span>
+                                </div>
+                              </div>
+                              </div>
+                              <div class="product_box" style="width: 258px;">
+                                <a href="./chosenProduct.html">
+                                  <div class="product_img_box">
+                                    <img src="/public/images/products/acer_laptop.png" alt="">
+                                  </div>
+                                </a>
+                                <div class="product_content_box" style="padding: 0 0 0 10px">
+                                  <span class="product_title">SAMSUNG</span>
+                                  <a href="product/chosenProduct.html">
+                                    <p class="product_desc">
+                                      Acer Aspire 5 15.6" Laptop - SIlver (Intel Core i7-1165G7/512GB SSD/128GB RAM/Windows 11)
+                                    </p>
+                                  </a>
+                                  <div class="review_box">
+                                    <img src="/public/images/icons/review.svg" alt="" />
+                                    <img src="/public/images/icons/review.svg" alt="" />
+                                    <img src="/public/images/icons/review.svg" alt="" />
+                                    <img src="/public/images/icons/review.svg" alt="" />
+                                    <img src="/public/images/icons/review.svg" alt="" />
+                                    <span>3,014 reviews</span>
+                                  </div>
+                                  <div class="price_box">
+                                    <strong>$320</strong>
+                                    <span>459$</span>
+                                  </div>
+                                </div>
+                                </div>
+                                <div class="product_box" style="width: 258px;">
+        <a href="./chosenProduct.html">
+          <div class="product_img_box">
+            <img src="/public/images/products/acer_laptop.png" alt="">
+          </div>
+        </a>
+        <div class="product_content_box" style="padding: 0 0 0 10px">
+          <span class="product_title">SAMSUNG</span>
+          <a href="product/chosenProduct.html">
+            <p class="product_desc">
+              Acer Aspire 5 15.6" Laptop - SIlver (Intel Core i7-1165G7/512GB SSD/128GB RAM/Windows 11)
+            </p>
+          </a>
+          <div class="review_box">
+            <img src="/public/images/icons/review.svg" alt="" />
+            <img src="/public/images/icons/review.svg" alt="" />
+            <img src="/public/images/icons/review.svg" alt="" />
+            <img src="/public/images/icons/review.svg" alt="" />
+            <img src="/public/images/icons/review.svg" alt="" />
+            <span>3,014 reviews</span>
+          </div>
+          <div class="price_box">
+            <strong>$320</strong>
+            <span>459$</span>
+          </div>
+        </div>
+        </div>
+        <div class="product_box" style="width: 258px;">
+          <a href="./chosenProduct.html">
+            <div class="product_img_box">
+              <img src="/public/images/products/acer_laptop.png" alt="">
+            </div>
+          </a>
+          <div class="product_content_box" style="padding: 0 0 0 10px">
+            <span class="product_title">SAMSUNG</span>
+            <a href="product/chosenProduct.html">
+              <p class="product_desc">
+                Acer Aspire 5 15.6" Laptop - SIlver (Intel Core i7-1165G7/512GB SSD/128GB RAM/Windows 11)
+              </p>
+            </a>
+            <div class="review_box">
+              <img src="/public/images/icons/review.svg" alt="" />
+              <img src="/public/images/icons/review.svg" alt="" />
+              <img src="/public/images/icons/review.svg" alt="" />
+              <img src="/public/images/icons/review.svg" alt="" />
+              <img src="/public/images/icons/review.svg" alt="" />
+              <span>3,014 reviews</span>
+            </div>
+            <div class="price_box">
+              <strong>$320</strong>
+              <span>459$</span>
+            </div>
+          </div>
+          </div>
+          <div class="product_box" style="width: 258px;">
+            <a href="./chosenProduct.html">
+              <div class="product_img_box">
+                <img src="/public/images/products/acer_laptop.png" alt="">
+              </div>
+            </a>
+            <div class="product_content_box" style="padding: 0 0 0 10px">
+              <span class="product_title">SAMSUNG</span>
+              <a href="product/chosenProduct.html">
+                <p class="product_desc">
+                  Acer Aspire 5 15.6" Laptop - SIlver (Intel Core i7-1165G7/512GB SSD/128GB RAM/Windows 11)
+                </p>
+              </a>
+              <div class="review_box">
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <img src="/public/images/icons/review.svg" alt="" />
+                <span>3,014 reviews</span>
+              </div>
+              <div class="price_box">
+                <strong>$320</strong>
+                <span>459$</span>
+              </div>
+            </div>
+            </div>
+            <div class="product_box" style="width: 258px;">
+              <a href="./chosenProduct.html">
+                <div class="product_img_box">
+                  <img src="/public/images/products/acer_laptop.png" alt="">
+                </div>
+              </a>
+              <div class="product_content_box" style="padding: 0 0 0 10px">
+                <span class="product_title">SAMSUNG</span>
+                <a href="product/chosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - SIlver (Intel Core i7-1165G7/512GB SSD/128GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="/public/images/icons/review.svg" alt="" />
+                  <img src="/public/images/icons/review.svg" alt="" />
+                  <img src="/public/images/icons/review.svg" alt="" />
+                  <img src="/public/images/icons/review.svg" alt="" />
+                  <img src="/public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$320</strong>
+                  <span>459$</span>
+                </div>
+              </div>
+              </div>
+      </div>
+      <div class="pro_pagination_box">
+        <div class="next_prev_btn">
+          <img src="/public/images/icons/next.svg" alt="">
+        </div>
+        <div class="pagination_number_wrap">
+          <div class="pagination_number_box active">2</div>
+          <div class="pagination_number_box">1</div>
+          <div class="pagination_number_box">2</div>
+          <div class="pagination_number_box">3</div>
+          <div class="pagination_number_box">4</div>
+          <div class="pagination_number_box">..</div>
+          <div class="pagination_number_box">20</div>
+        </div>
+        <div class="next_prev_btn">
+          <img src="/public/images/icons/next.svg"  style="transform: scaleX(-1);">
+        </div>
+      </div>
+     </div>
+    </div>
+
+    <div class="footer_frame">
+      <div class="container">
+        <div class="footer_top">
+          <div class="footer_contact_box">
+            <span class="footer_spec_title">Contact Us</span>
+            <div class="footer_contact_main">
+              <img src="../public/images/icons/phone-call.svg" alt="" />
+              <div>
+                <strong>Monday-Friday: 08am-09pm</strong>
+                <span>+(1) 123 456 7890</span>
+              </div>
+            </div>
+            <div class="footer_contact_main">
+              <img src="../public/images/icons/email.svg" alt="" />
+              <div>
+                <strong>Need help with your order?</strong>
+                <span>support@zenmart.com</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer_support_box">
+            <span class="footer_spec_title" style="margin-bottom: 10px"
+              >Customer Support</span
+            >
+            <a href="">Contact Us</a>
+            <a href="">Help Center</a>
+            <a href="">Returs & Exchange</a>
+            <a href="">Best Buy Financing</a>
+            <a href="">Best Buy Gift Card</a>
+          </div>
+          <div class="footer_support_box">
+            <span class="footer_spec_title" style="margin-bottom: 10px"
+              >Services</span
+            >
+            <a href="">Geek Squad</a>
+            <a href="">In-Home Advisor</a>
+            <a href="">Trade-In Program</a>
+            <a href="">Electronics Recycling</a>
+            <a href="">Best Buy Health</a>
+          </div>
+          <div class="footer_media_box">
+            <div class="footer_media_main">
+              <span class="footer_spec_title" style="margin-bottom: 20px"
+                >Follow Us</span
+              >
+              <div class="media_box">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+            </div>
+            <div class="footer_media_main" style="margin-top: 30px">
+              <span class="footer_spec_title" style="margin-bottom: 20px"
+                >Mobile Apps</span
+              >
+              <div class="mobile_app_box">
+                <img src="../public/images/icons/apple_icon.png" alt="" />
+                <span>iOS App</span>
+              </div>
+              <div class="mobile_app_box">
+                <img src="../public/images/icons/android_icon.png" alt="" />
+                <span>Android App</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer_media_box">
+            <div class="footer_media_main" style="margin-top: 130px">
+              <span class="footer_spec_title" style="margin-bottom: 20px"
+                >We Accept
+              </span>
+              <div class="card_box">
+                <img src="../public/images/icons/visa.png" alt="" />
+                <img src="../public/images/icons/master_card.png" alt="" />
+                <img src="../public/images/icons/apple_pay.png" alt="" />
+                <img src="../public/images/icons/dicvover.png" alt="" />
+                <img src="../public/images/icons/paypal.png" alt="" />
+                <img src="../public/images/icons/amex.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <div class="footer_main">
+            <div class="footer_bottom_left">
+              <span>&copy; 2024 Zenmart. All Rights Reserved</span>
+              <span>Privacy Terms Sitemap</span>
+            </div>
+            <div class="footer_bottom_right">
+              <div class="footer_select_box">
+                <span>Currency</span>
+                <select name="" id="">
+                  <option value="" selected>USD</option>
+                  <option value="" selected>KRW</option>
+                  <option value="" selected>UZS</option>
+                </select>
+              </div>
+              <div class="footer_select_box">
+                <span>Language</span>
+                <select name="" id="">
+                  <option value="" selected>English</option>
+                  <option value="" selected>Korean</option>
+                  <option value="" selected>Uzbek</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
