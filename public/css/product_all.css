@@ -581,10 +581,14 @@
   cursor: pointer;
 }
 
-.shop_page .pagination_number_wrap .pagination_number_box .active {
+.pagination_number_box.active {
+  background: #f5c34b;
+}
+
+/* .shop_page .pagination_number_wrap .pagination_number_box .active {
   background: #f5c34b;
   border: 1px solid #f5c34b;
-}
+} */
 
 .shop_page .pagination_number_wrap .pagination_number_box:hover {
   background: #f3f5f6;
